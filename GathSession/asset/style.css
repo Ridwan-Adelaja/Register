@@ -1,0 +1,56 @@
+.Gath {
+  color: red;
+}
+.Session {
+  color: orange;
+}
+.GathSession {
+  margin: 10px 20px !important;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.menu-item a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: var(--Black, #000);
+}
+
+.btn {
+  border: 1px solid #000;
+  padding: 13px 17px;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  margin: 35px 20px;
+  column-gap: 50px;
+  align-items: center;
+  /* flex-direction: row; */
+}
+.hero-text h2 {
+  /* width: 265.5px; */
+  font-weight: normal;
+  font-family: 50px;
+  letter-spacing: 2px;
+}
+.hero-text p {
+  letter-spacing: normal;
+  line-height: 25px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.hero-text button {
+  background-color: var(--orange #ffa500);
+}
+.hero-img {
+  margin-left: 10px;
+  justify-content: left;
+}
