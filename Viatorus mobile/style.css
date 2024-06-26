@@ -1,0 +1,58 @@
+body {
+  font-family: "Poppints", sans-serif;
+}
+.hero {
+  background-image: url(https://res.cloudinary.com/dj7y9eegh/image/upload/v1716290245/vitours/Section_oupdgp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.5pc;
+  background-size: cover;
+  padding: 10%;
+  margin: 2%;
+}
+.hero-text h1 {
+  color: white;
+  font-size: xx-large;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.hero-text p {
+  color: white;
+  font-size: x-small;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+.inputs-bars {
+  background-color: #fff;
+  border-radius: 9px;
+  border: none;
+  width: rem;
+  padding: 12px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  color: #000;
+}
+.checkbox {
+  border: 1px solid #333;
+  width: 1.5rem;
+  border-radius: 5px;
+  height: 23px;
+}
+.input {
+  border: none;
+  font-weight: bold;
+  color: #00000000;
+}
+.Search{
+  background-color: #f00;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
